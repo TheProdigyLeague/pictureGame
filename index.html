@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crimson Requiem: A Gothic Romance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="game-container">
+    <div id="start-screen" class="screen active">
+        <h1 class="game-title">Crimson Requiem</h1>
+        <h2 class="subtitle">A Gothic Romance</h2>
+        <button id="start-button" class="glossy-button">Start Your Journey</button>
+    </div>
+
+    <div id="game-screen" class="screen">
+        <div id="story-image-container">
+            <img id="story-image" src="imgs/cover.png" alt="Story Scene">
+        </div>
+        <div id="dialogue-box">
+            <p id="story-text"></p>
+            <div id="choices-container">
+            </div>
+        </div>
+    </div>
+
+    <div id="loading-screen" class="screen">
+        <p>Loading...</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
